@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b, resultado1=0;
+    float x,y, resultado2=0;
+
+
+
+
+    cout << "ingrese el primer número entero:"; cin >> a;
+    cout << "ingrese el segundo número entero:"; cin >> b;
+    resultado1 = a/b;
+    cout << "respuesta1:"<< resultado1<< endl;
+
+
+
+    cout << "ingrese el primer número decimal:"; cin >> x;
+    cout << "ingrese el segundo número decimal:"; cin >> y;
+    resultado2= x/y;
+
+    cout.precision(2);  
+
+    cout << "respuesta2:"<<  resultado2<< endl;
+
+
+
+    return 0;
